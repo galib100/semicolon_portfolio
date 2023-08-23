@@ -38,7 +38,7 @@ export default function RootLayout({
       <body className={inter.className}>
 
 
-        <AnimatePresence wait>
+        <AnimatePresence >
           {isLoading ? <Loader /> : <div>
             <Navbar />
             {children}
