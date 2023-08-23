@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="bg-blend-darken-300 p-4 flex justify-center items-center">
       <div className="flex items-center space-x-4">
-        <a href="#" className="text-xl font-bold text-white">
+        <a href="/" className="text-xl font-bold text-white">
           <Image 
           src={Logo}
           alt='logo'
