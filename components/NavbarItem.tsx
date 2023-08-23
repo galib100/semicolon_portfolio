@@ -1,4 +1,4 @@
-const NavbarItem = ({ href, text }) => {
+const NavbarItem = ({ href, text }:any) => {
     return (
       <a
         href={href}
