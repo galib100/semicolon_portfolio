@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const ServiceCard = ({ service }) => {
+const ServiceCard = ({ service }:any) => {
   return (
     <motion.div
       className="bg-purple-950  p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300"
