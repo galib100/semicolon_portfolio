@@ -1,13 +1,11 @@
 import Card from '@/components/Card'
 import HeroSection from '@/components/HeroSection'
 import Navbar from '@/components/NavBar'
-import { FiShield, FiLock, FiAnalytics } from 'react-icons/fi';
 
 export default function Home() {
   return (
     <main >
      <HeroSection/>
-     {/* <TinySlider/> */}
      <div className="container mx-auto grid gap-6 md:grid-cols-3">
           <Card
             title="Network Security"

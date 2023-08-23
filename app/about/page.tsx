@@ -6,22 +6,22 @@ const page = () => {
   return (
     <div>
       <div>
-      <motion.section
-        className="relative h-96 md:h-80 overflow-hidden"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: -20 }}
-        transition={{ duration: 0.5 }}
-      >
-        <img
-          src="/about-us.jpg"
-          alt="About Us"
-          className="object-cover w-full h-full filter blur-sm"
-        />
-        <div className="absolute inset-0 flex items-center justify-center text-white text-3xl md:text-4xl font-semibold">
-          <p>We are Semicolon</p>
-        </div>
-      </motion.section>
+        <motion.section
+          className="relative h-96 md:h-80 overflow-hidden"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          transition={{ duration: 0.5 }}
+        >
+          <img
+            src="/about-us.jpg"
+            alt="About Us"
+            className="object-cover w-full h-full filter blur-sm"
+          />
+          <div className="absolute inset-0 flex items-center justify-center text-white text-3xl md:text-4xl font-semibold">
+            <p>We are Semicolon</p>
+          </div>
+        </motion.section>
       </div>
       <motion.section
         className="container mx-auto p-8 md:p-16"
@@ -30,7 +30,7 @@ const page = () => {
         exit={{ opacity: 0, y: -20 }}
         transition={{ duration: 0.5 }}
       >
-        <h1 className="text-3xl md:text-4xl font-extralight mb-20">About Us</h1>
+        <h1 className="text-3xl md:text-4xl font-light mb-20">About Us</h1>
         <p className="text-lime-100 mb-6">
           At CyberSecure, we are dedicated to providing top-notch cybersecurity solutions to protect your business from evolving cyber threats. With a team of experts and cutting-edge technologies, we ensure the safety of your digital assets.
         </p>
@@ -39,7 +39,7 @@ const page = () => {
         </p>
       </motion.section>
       <div>
-        <CEOPage/>
+        <CEOPage />
       </div>
     </div>
   )
