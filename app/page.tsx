@@ -1,8 +1,6 @@
 import Card from '@/components/Card'
 import HeroSection from '@/components/HeroSection'
 import Navbar from '@/components/NavBar'
-import TinySlider from '@/components/TinySlider'
-import Image from 'next/image'
 import { FiShield, FiLock, FiAnalytics } from 'react-icons/fi';
 
 export default function Home() {
