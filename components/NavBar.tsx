@@ -4,14 +4,13 @@ import Logo from '../assets/semicolon.png'
 const Navbar = () => {
   return (
     <nav className="bg-blend-darken-300 p-4 flex justify-center items-center">
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center ">
         <a href="/" className="text-xl font-bold text-white">
           <Image 
           src={Logo}
           alt='logo'
-          width={100}
-          height={100}
-          
+         width={100}
+         height={100}
           />
         </a>
         <NavbarItem href="/" text="Home" />
